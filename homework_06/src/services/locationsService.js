@@ -1,6 +1,6 @@
 import axios from 'axios'
 const API =
-  'https://raw.githubusercontent.com/brightestsirius/React_32/refs/heads/master/data/locations.json'
+  'https://6a05e129aa826ca75c0ac6a0.mockapi.io/locations'
 
 export const locationsService = {
   get: async (id) => {
