@@ -7,7 +7,7 @@ export default function MapRoute() {
     <>
       <h1>Map</h1>
       {locations.map((location) => (
-        <div>
+        <div key={location.id}>
           <h2>{location.name}</h2>
           <p>Address: {location.address}</p>
           <p>Type: {location.type}</p>
